@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="./currency-converter.css">
+        <title>Currency Converter</title>
+    </head>
+    <body>
+        <div class="main-container">
+            <div class="title-container">
+                <p id="title-text">Currency Converter</p>
+            </div>
+            <div class="program-container">
+                <div class="inputs">
+                    <div id="input-container">
+                        <p id="currency-name">Currency From</p>
+                        <select id="currencies" class="js-currencies js-currency-from">
+                        </select>
+                    </div>
+                    
+                    <div class="quantity-container">
+                        <p>Enter an Amount</p>
+                        <input type="number" id="quantity" min="1">
+                        <div>
+                            <button id="convert-button">convert</button>
+                            <button id="swap-button">swap</button>
+                        </div>
+                    </div>
+
+                    <div id="output-container">
+                        <p id="currency-name">Currency To</p>
+                        <select id="currencies" class="js-currencies js-currency-to">
+                        </select>
+                    </div>
+                </div>
+                <div class="output">
+                    <p>Conversion:</p>
+                    <p id="output-text">0.00 USD</p>
+                </div>
+            </div>
+        </div>
+        <script type="module" src="./currencyConverterController.js"></script>
+    </body>
+</html>

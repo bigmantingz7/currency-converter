@@ -1,0 +1,128 @@
+
+/* general styling */
+body {
+    font-family: Monospace ;
+    background-color: #0C1618;
+    color: #F6BE9A;
+    font-size: 21px;
+}
+
+input[type=number], select {
+    background-color: #FAF4D3;
+
+    border: 1px solid #D1AC00;
+
+    font-family: monospace;
+    font-size: 18px;
+    font-weight: bold;
+    color: #0C1618;
+
+    cursor: pointer;
+}
+/* general styling */
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#title-text {
+    font-weight: bold;
+    font-size: 28px;
+}
+
+/* main program styling */
+.program-container {
+    display: flex;
+    flex-direction: column;
+    border-radius: 2px;
+    padding: 5px;
+    background-color: #004643;
+}
+
+#output-container, #input-container, .quantity-container {
+    display: flex;
+    flex-direction: column;
+    
+    padding: 30px 20px;
+    margin: 5px;
+    
+    align-items: center;
+    justify-content: center;
+    vertical-align: top;
+
+    background-color: #0C1618;
+    border: 1px solid #D1AC00 ;
+}
+
+/* input styling */
+.inputs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #004643;
+
+    padding: 2px;
+}
+
+#quantity, #currencies {
+    width: 80%;
+    height: 30%;
+}
+
+#convert-button, #swap-button {
+    margin: 10px 5px 5px 5px;
+    border: 1px solid #D1AC00;
+    padding: 5px;
+    
+    font-family: monospace;
+    background-color: #F6BE9A;
+    color: #004643;
+
+    cursor: pointer;
+}
+
+#convert-button:hover, #swap-button:hover {
+    color: #F6BE9A;
+    background-color: #004643;   
+}
+
+#currencies {
+    width: 40%;
+    height: 100%;
+}
+
+.quantity-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* output styling */
+.output {
+    align-items: center;
+    padding: 5px;
+    
+    border: 2px solid #0C1618;
+    background-color: #D1AC00;
+    color: #FAF4D3;
+}
+
+.output p {
+    display: inline-block;
+    background-color: #004643;
+    margin: 2.5px 0px;
+    padding: 10px;
+}
+
+#output-text {
+    display: block;
+    text-align: center;
+    font-size: 25px;
+    color: #FAF4D3;
+    padding: 0px;
+}
+
